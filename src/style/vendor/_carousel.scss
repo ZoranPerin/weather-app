@@ -1,0 +1,40 @@
+.VueCarousel {
+
+	&-inner {
+		width: 100% !important;
+	}
+
+	&-slide {
+		padding: 0 15px;
+	}
+
+	&-pagination {
+
+	}
+
+	&-dot {
+
+		background-color: $color-text-light !important;
+		border: none !important;
+		opacity: .3;
+		padding: 10px 7px !important;
+
+		.dark-mode & {
+			background-color: $color-text-dark !important;
+		}
+
+		&:focus {
+			outline: none !important;
+		}
+
+		&--active {
+			opacity: 1;
+		}
+
+		&-container {
+			margin-top: 0 !important;
+		}
+
+	}
+
+}

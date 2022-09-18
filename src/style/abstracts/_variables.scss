@@ -1,0 +1,31 @@
+// Font
+$font-family: 'Inter', sans-serif;
+$font-size: 15px;
+$font-weight-normal: 400;
+$font-weight-medium: 500;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+$line-height: 1.5;
+
+// Elements UI
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
+
+// Header
+$header-height: 70px;
+
+// Margins
+$margin: 30px;
+$padding: 20px;
+
+// Image path
+$image-path: '/images/';
+
+// Grid
+$grid-columns: 12;
+$grid-column-gutter: 30px;
+
+// Break points
+$xs: 575px;
+$sm: 767px;
+$md: 1199px;
+$lg: 1200px;

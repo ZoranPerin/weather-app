@@ -1,0 +1,43 @@
+body {
+
+    background-color: $color-background-light;
+    color: $color-text-light;
+    font-family: $font-family;
+    font-size: $font-size;
+    font-weight: $font-weight-normal;
+    line-height: $line-height;
+    text-align: left;
+
+	&.dark-mode {
+		background-color: $color-background-dark;
+		color: $color-text-dark;
+	}
+}
+
+h1 {
+
+    font-size: 1.6em;
+	font-weight: $font-weight-semibold;
+	letter-spacing: 1px;
+	line-height: 1.1;
+    margin: 0 0 50px;
+	text-align: center;
+	text-transform: uppercase;
+
+	@include breakpoint(sm) {
+		margin: 0 0 30px;
+		font-size: 1.5em;
+	}
+
+}
+
+a {
+
+    @include link-color($color-primary-light, $color-primary-light, none, underline);
+	transition: all .3s ease;
+
+	.dark-mode & {
+		@include link-color($color-primary-dark, $color-primary-dark, none, underline);
+	}
+
+}
