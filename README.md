@@ -1,7 +1,7 @@
 # Weather app
 
 ### Preview
-Link for preview: https://prognosis-test.herokuapp.com/main
+Link for preview: https://prognosis-test.herokuapp.com
 
 
 ### Config
