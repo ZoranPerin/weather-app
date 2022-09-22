@@ -264,4 +264,12 @@
 		width: 100% !important;
 	}
 
+	&-scrollbar {
+
+	    > .el-scrollbar__bar {
+	        opacity: 1 !important;
+	    }
+
+	}
+
 }
